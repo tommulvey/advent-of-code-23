@@ -104,7 +104,7 @@ fun part2(file: File): Int {
 fun main(args: Array<String>) {
 
     // get input file
-    val file = File("./src/main/kotlin/input.txt").absoluteFile
+    val file = File("./src/day2.main/kotlin/day1/input.txt").absoluteFile
 
     println("part 1 sum is ${part1(file)}")
     println("part 2 sum is ${part2(file)}")
